@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id='root'> hi</p>
+</body>
+
+<script>
+
+    const myProgramming = ['java', 'c', 'python', 'react', 'php']
+
+    // // before ES5 we use that kind of coding 
+
+    // let top1 = myProgramming[0];
+    // let top2 = myProgramming[1];
+    // let top3 = myProgramming[2];
+    // let top4 = myProgramming[3];
+    // let top5 = myProgramming[4];
+
+    //  console.log('my favourite programming is ' + top3);
+
+    // In ES6 we use the array destructuring as below
+
+    let [top1, ,,, toplast] = myProgramming;
+
+    document.getElementById('root').innerHTML = (`my favourite programming is ${top1} and my least favourite programming language is ${toplast}.`)
+
+
+</script>
+
+</html>

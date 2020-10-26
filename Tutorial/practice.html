@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello this is practice tutorial</h1>
+    <p id="root"></p>
+</body>
+
+<script>
+    const kiran = 'netflix';
+    let greeting ={};
+    let cSS = {};
+
+    if(kiran === 'netflix'){
+        greeting= 'good morning';
+        cSS = '40px'
+    }
+
+    else{
+        greeting= "good afternoon";
+        cSS = 'green'
+    }
+    console.log(greeting)
+    document.getElementById("root").innerHTML = greeting ;
+    document.getElementById("root").style.fontSize =  cSS;
+</script>
+</html>

@@ -1,0 +1,49 @@
+<p id="arrayMap" ></p>
+
+<script>
+
+const oldarr = [ 
+{"name": "Afghanistan", "code": "AF"}, 
+{"name": "land Islands", "code": "AX"}, 
+{"name": "Albania", "code": "AL"}, 
+{"name": "Algeria", "code": "DZ"}, 
+{"name": "American Samoa", "code": "AS"}, 
+{"name": "AndorrA", "code": "AD"} 
+]
+
+//  console.log(oldarr);
+//  console.log(oldarr[3].name);
+
+//  const newarr = oldarr.map(function(cvalue) {  //cvalue is a current value (write anyargument anything)
+//     return cvalue + 'mahadev';  
+//  });
+
+//  console.log(newarr);
+
+// const newarr = oldarr.map(function(kiran, index, arr){
+// return (
+//     index + ":" + kiran 
+//     );  // arr shows old array which is use in array map()
+//  });
+
+const newarr = oldarr.map( (kiran, index) =>{  // Arrow function
+    return (
+        index + ":" + kiran
+    )
+});
+
+ console.log(newarr);
+//  console.log(oldarr);
+ document.getElementById('arrayMap').innerHTML = newarr;
+
+
+ // Arrow function
+
+//  function kiran(a,b){
+//      return a+b ;
+//  };
+
+//  const kiran = (a,b) => a+b ;
+
+</script>
+

@@ -1,13 +1,409 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+/* body{
+  background-color: blueviolet;
+} */
+
+/* .Clock{
+
+  height: 100px;
+  font-size: 50px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div {
+background-color: blueviolet;
+width: 100%;
+height: 100Vh;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: row;
+text-align: center;
+box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.center_div{
+
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #E6F6EE;
+  box-shadow: 5px 5px 25px -5px black;
+} */
+
+/* h1{
+  font-family: 'Shadows Into Light', cursive;
+  color: #B5B6B6;
+  font-weight: 10;
+  background: transparent;
+  background-color: #E9F5F2;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+  border-radius: 15px 15px 0 0;
+} */
+
+/* input{
+  font-family: 'Shadows Into Light', cursive;
+  border: none;
+  height: 25px;
+  width: 55%;
+  top: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  padding: 5px;
+  background: transparent;
+  border-bottom: 1px solid #B37EEE;
+} */
+
+.btn{
+
+  /* font-size: 20px;
+  width: auto;
+  background-color:  #B37EEE;
+  border: none;
+  border-color: transparent;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 20px; */
+}
+
+/* .btn:hover {
+  background-color: green;
+}
+
+ol {
+  margin-top: 30px;
+  color: #B37EEE;
+  background: transparent;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: left;
+
+}
+
+ol li {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 1000;
+  padding-left: 0px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 20px;
+  
+
+  
+
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.todo_style .fa-trash{
+  margin : 5px 0px 5px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.todo_style .fa-trash:hover{
+  color: red;
+}
+
+@media (max-width : 768px) {
+  .center_div{
+    width: 55%;
+  }
+} */
+
+
+
+/* body{
+  background-color: hotpink;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+/* css for good morning good afternoon 
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+h1{
+  padding: 20px 20px;
+  background-color: burlywood;
+  height: 100px;
+  border-radius: 20px;
+
+} */
+/* external css for react */
+/* .heading{
+  font-family: 'Sansita Swashed', cursive; 
+  color: red;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+  margin: 70px 0;
+  text-shadow: 0px 2px 2px green;
+}
+
+.imgName{
+  display: flex;
+  justify-content: center;
+}
+
+.imgName img{
+  width: 250px;
+  height: 300px;
+} */
+
+/* body{
+ background-color: #5DF4BD;
+} */
+
+/* div{
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #EFF6F5;
+  color: #959B9A;
+  width: 100%;
+  height: 100vh;
+}
+
+button{
+  
+  font-family: 'Sansita Swashed', cursive;
+  padding: 12px 22px;
+  margin: 10px;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input{
+  height: 50px;
+  width: 400px;
+}
+
+.emailId {
+text-align: center;
+font-size: 100%;
+}
+
+.slot-inner{
+  position: block;
+  font-size: 40px;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #F2E6F8;
+
+}
+
+.card{
+
+ display: flex
+ border: 1px solid black;
+ border-radius: 5px;
+ width: 358px;
+ margin: 10px;
+ text-align: left;
+ padding: 10px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.img_body{
+  display: flex;
+} */
+
+/* .active_class {
+  color: black;
+}
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: violet;
+  font-size: 30px;
+}
+
+.searchBar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+} */
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color: #3998db !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+/* home page */
+
+#header{
+  width: 100%;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name{
+  color: #3998db;
+}
+
+#header h2{
+  color: #484848;
+  font-size: 25px;
+}
+
+#header .btn-get-started{
+
+  width: 25%;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3998db;
+  border: 2px solid #3998db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+ background: #3998db;
+ color: #fff;
+}
+
+.header-img{
+  text-align: right;
+}
+
+.btn-buy-now{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 7px 10px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+@media (max-width: 991px) {
+
+  #header {
+  height: 80vh;
+  text-align: center;
+  }
+
+  #header .header-img {
+      text-align: center;
+  }
+
+  #header .header-img img  {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #header {
+    margin-top: 20px;
+  }
+
+  #header {
+    font-size: 28px;
+  }
+
+  #header {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img  {
+    width: 70%;
+  }
 }
